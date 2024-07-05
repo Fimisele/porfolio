@@ -1,0 +1,40 @@
+.gg{
+    background-image:url(image/kombat11.jpg) ;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.CAGE img{
+    width:600px ;
+}
+
+.CAGE{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+@media screen and (max-width :480px) {
+    .gg{
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 30vh;
+    }
+    .CAGE{
+        display: grid;
+        gap: 10px;
+        
+    }
+    .CAGE img{
+        width: 200px;
+       
+    }
+     }  
+
+
+
+
+
+
+

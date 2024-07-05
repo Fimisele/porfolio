@@ -1,0 +1,177 @@
+.Goku{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+      
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+ .menu{
+    font-size: 30px;
+    color: white;
+    margin: 20px 0;
+} 
+ul{
+    display: flex;
+    justify-content:space-between ;
+    gap: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+li{
+list-style-type: none;
+}
+
+.flash{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.CR7{
+    display: flex;
+    width: 1885px;
+    justify-content: space-around;
+}
+.MRBEAST img{
+    width: 400px;
+    height: 500px;
+    
+}
+
+
+
+.LM10 img{
+    width: 400px;
+    height: 500px;
+}
+
+
+.FootBall img{
+    width: 400px;
+    height: 500px;
+}
+
+.LM10{
+    height: 300px;
+    width: 300px;  
+}
+
+
+.MRBEAST{
+    height: 300px;
+    width: 200px;
+
+}
+.sigma{
+    background-color: blue;
+    color: white;
+    margin-top: 100px;
+    padding-left: 770px;
+    
+}
+
+
+@media screen and (max-width :480px) {
+    
+    .CR7{
+        display: flex;
+    width: 400px;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 30px;
+    }
+    
+    .flash{
+        display: grid;
+    }
+    .flash img{
+        width: 345px;
+    }
+    .Goku{
+        display: block;
+    }
+    .Goku h1{
+        display: inline;
+    }
+    .Goku .menu{
+        display: inline;
+        margin-left: 30%;
+    }
+     ul{
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+        z-index: 100;
+        justify-content: unset;
+    } */
+    a{
+        color: red;
+        font-size: 25px;
+    }
+
+    
+.FootBall{
+    /* height: 360px;
+    width: 300px; */
+    margin-top: 15px;
+    color: white;
+}
+
+
+.MRBEAST{
+    /* height: 360x;
+    width: 300px; */
+    margin-top: 15px;
+    color: white;
+}
+
+
+.LM10{
+     /* height: 360px; */
+     /* width: 600px;  */
+    margin-top: 15px;
+    color: white;
+}
+
+
+.FootBall img{
+    width: 350px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+
+.LM10 img{
+    width: 350px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+
+.MRBEAST img{
+    width: 350px;
+    height:300px;
+    margin-top: 10px;
+    
+}
+.sigma{
+    background-color: blue;
+    color: white;
+    margin-top: 70px;
+    padding-left: 10px;
+    
+}
+}

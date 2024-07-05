@@ -1,0 +1,111 @@
+.FUJIN{
+    background-image: url( image/kombatbackground.jpg);
+    height: 100vh;
+    background-size: cover;
+}   
+
+
+.FUJIN h1{
+    color: yellow;
+    font-size: 100px;
+    padding-left: 30px;
+}
+
+ .FUJIN h3{
+    color: yellow;
+    font-size: 40px;
+    padding-left: 100px;
+    
+ }   
+    
+
+ .jade{
+    display: flex;
+    justify-content:center;
+    margin: 20px auto;
+    background-color: orange;
+ }   
+  
+.jade img{
+    width: 800px;
+}
+
+.jade p{
+    font-size: 40px;
+    padding-left: 35px;
+    padding-top: 100px;
+}
+
+.RAIN img{
+    width: 400px;
+}
+
+.robocop img{
+    width: 400px;
+}
+
+.kronika{
+    width: 400px;
+}
+
+.blaze{
+    width: 200px;
+}
+
+.nice{
+    width: 500px;
+}
+
+.killshot img{
+    width: 400px;
+}
+
+
+.shadow img{
+    width: 400px;
+}
+
+.TENGU{
+background-image: url(image/kombat6.jpg);
+background-size: cover;
+height: 100vh;
+}
+
+@media screen and (max-width:480px){
+    .FUJIN{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .FUJIN h1{
+        color: yellow;
+        font-size: 40px;
+        padding-left: 15px;
+    }
+    
+    .FUJIN h3{
+        color: yellow;
+        font-size: 15px;
+        padding-left: 10px;
+        
+     }  
+     
+    .jade{
+        display: grid;
+        
+    }  
+    .jade img{
+    width: 400px; 
+
+    } 
+    .robocob img{
+        width: 200px;
+    }
+
+    .the img{width: 400px;}    
+  
+}
+
+
+
+
+
